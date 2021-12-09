@@ -15,9 +15,9 @@
 <body>
 <ul>
 <?php 
-for ($i = 0; $i<11; $i ++ ): ?>
-<li><?php echo $i ?></li>
-<?php endfor; ?>
+while ($i <= 10): ?>
+<li><?= ++$i ?></li>
+<?php endwhile; ?>
 </ul>
 </body>
 </html>
